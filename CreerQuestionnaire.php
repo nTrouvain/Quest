@@ -39,14 +39,14 @@ if (!empty($_POST['description'])  and !empty($_POST['nom']) and !empty($_POST['
   
   $stmt = $BDD->prepare('select * from question where quest_type=? ');
   $stmt->execute(array($type));
-  while($question = $stmt->fetch()) 
+  foreach($stmt as $question) 
   { 
   $idquestion=$question['quest_id'];
-  $requeteDeux=$BDD->prepare('INSERT INTO contient(qutaire,quest,qutaire_type) VALUES(:id,:idques,:type)');
+  $requeteDeux=$BDD->prepare('INSERT INTO contient(qutaire,quest,qutaire_type) VALUES(:id,:idquest,:type)');
   
 
   
-  $requeteDeux->bindValue(':idqutaire', $id, PDO::PARAM_INT); 
+  $requeteDeux->bindValue(':id', $id, PDO::PARAM_INT); 
   $requeteDeux->bindValue(':idquest', $idquestion, PDO::PARAM_INT); 
   $requeteDeux->bindValue(':type', $type, PDO::PARAM_STR);  
  
