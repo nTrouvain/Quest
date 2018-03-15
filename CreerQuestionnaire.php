@@ -4,61 +4,6 @@ require('connect_to_quest.php');
 
 $idCampagne = $_GET['id'];
 
-if (!empty($_POST['description'])  and !empty($_POST['nom']) and !empty($_POST['type']))
-{
-  $nom=$_POST['nom'];
-  $desc=$_POST['description'];
-  $type=$_POST['type'];
-  
-
-
-  
-  // Création d'un code à 4 charactères pour l'identifiant : 
-
-    
-  $characts = '1234567890';
-  
-  $id = ''; 
-  for($i=0;$i < 8;$i++) 
-   { $id .= substr($characts,rand()%(strlen($characts)),1); } 
-  
-  
-
-  
-  $requete=$BDD->prepare('INSERT INTO questaire(qutaire_id,qutaire_camp,qutaire_titre,qutaire_desc) VALUES(:id,:idCamp,:nom,:description)');
-  
-
-  
-  $requete->bindValue(':id', $id, PDO::PARAM_INT); 
-  $requete->bindValue(':idCamp', $idCampagne, PDO::PARAM_INT); 
-  $requete->bindValue(':nom', $nom, PDO::PARAM_STR);  
-  $requete->bindValue(':description', $desc, PDO::PARAM_STR);
-  
-  
-  $requete->execute();
-  
-  $stmt = $BDD->prepare('select * from question where quest_type=? ');
-  $stmt->execute(array($type));
-  foreach($stmt as $question) 
-  { 
-  $idquestion=$question['quest_id'];
-  $requeteDeux=$BDD->prepare('INSERT INTO contient(qutaire,quest,qutaire_type) VALUES(:id,:idquest,:type)');
-  
-
-  
-  $requeteDeux->bindValue(':id', $id, PDO::PARAM_INT); 
-  $requeteDeux->bindValue(':idquest', $idquestion, PDO::PARAM_INT); 
-  $requeteDeux->bindValue(':type', $type, PDO::PARAM_STR);  
- 
-  
-  
-  $requeteDeux->execute();
-}
-
-  
-
-
-}
 
 ?>
 
@@ -78,7 +23,7 @@ if (!empty($_POST['description'])  and !empty($_POST['nom']) and !empty($_POST['
   <br/>
  
   <div class="well">
-            <form class="form-signin form-horizontal" role="form" action="CreerQuestionnaire.php?id=<?=$idCampagne?>" method="post">
+            <form class="form-signin form-horizontal" role="form" action="TraiterCreerQuestionnaire.php?id=<?=$idCampagne?>" method="post">
                <div class="form-group">
                     <div class="col-sm-6 col-sm-offset-3 col-md-4 col-md-offset-4">
                     <label for="nom">Nom du questionnaire : </label>

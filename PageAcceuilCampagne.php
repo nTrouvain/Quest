@@ -7,6 +7,11 @@ $requete=$BDD->prepare('select * from campagne where camp_id=?');
 $requete->execute(array($idCampagne));
 $campagne=$requete->fetch();
 
+$stmt=$BDD->prepare('select * from questaire where qutaire_camp=?');
+$stmt->execute(array($idCampagne));
+
+
+
 
 
 ?>
@@ -33,6 +38,13 @@ $campagne=$requete->fetch();
                     <h2><?= $campagne['camp_nom'] ?></h2>
                     
                     <p><small><?= $campagne['camp_desc'] ?></small></p>
+                    <h2>Questionnaires(s) de cette campagne :</h2>
+                    <?php foreach ($stmt as $questionnaire) { ?>
+                       <article>
+                        <h5><a class="nom_questionnaire" ><?= $questionnaire["qutaire_titre"] ?></a></h5>
+                
+                      </article>
+                    <?php } ?>
                   
   
                 

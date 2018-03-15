@@ -61,7 +61,7 @@ if (!empty($_POST['description']) and !empty($_POST['dateDebut'])and !empty($_PO
   <br/>
  
   <div class="well">
-            <form class="form-signin form-horizontal" role="form" action="CreerCampagne.php?id=<?=$idExperience?>" method="post">
+            <form class="form-signin form-horizontal" role="form" action="TraiterCreerCampagne.php?id=<?=$idExperience?>" method="post">
                <div class="form-group">
                     <div class="col-sm-6 col-sm-offset-3 col-md-4 col-md-offset-4">
                     <label for="nom">Nom de la campagne : </label>
