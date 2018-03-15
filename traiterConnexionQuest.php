@@ -1,18 +1,24 @@
-<?php
+<?php session_start();
 require("connect_to_quest.php");
 
 $validation=false;
-if (!empty($_POST['nom']) and !empty($_POST['mdp'])) {
-    $nom = $_POST['nom'];
+if (!empty($_POST['mail']) and !empty($_POST['mdp'])) {
+    
+    $mail = $_POST['mail'];
     $mdp = $_POST['mdp'];
-    $stmt =$BDD->prepare('select * from experiment where exp_nom=? and exp_mdp=?');
-    $stmt->execute(array($nom, $mdp));
-    if ($stmt->rowCount() == 1) {
+    $stmt =$BDD->prepare('select exp_id from experiment where exp_mail=? and exp_mdp=?');
+    $stmt->execute(array($mail, $mdp));
+    if ($stmt->rowCount() == 1 ) 
+    {
+        while ($row = $stmt->fetch())
+         {
+            $idEXP=$row['exp_id'];
+         }
+       
         // Authentication successful
-        $_SESSION['nom'] = $nom;
-        $_validation=true;
+                $_validation=true;
+                $_SESSION['idEXP']=$idEXP;
         
-
 
     }
     else {
@@ -21,8 +27,9 @@ if (!empty($_POST['nom']) and !empty($_POST['mdp'])) {
     }
 if ($_validation)
     {
-        header("Location: http://localhost/web/Quest/Projet%20web.php");
+        header("Location: http://localhost/web/Quest/PageAcceuilEXP.php");
     }
 else {header("Location: http://localhost/web/Quest/connexionQuest.html");}
+    
 }
 ?>
