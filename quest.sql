@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 4.7.4
+-- version 4.7.7
 -- https://www.phpmyadmin.net/
 --
 -- Hôte : 127.0.0.1
--- Généré le :  jeu. 15 mars 2018 à 13:58
+-- Généré le :  sam. 17 mars 2018 à 16:26
 -- Version du serveur :  10.1.30-MariaDB
--- Version de PHP :  5.6.33
+-- Version de PHP :  7.2.2
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET AUTOCOMMIT = 0;
@@ -342,34 +342,6 @@ ALTER TABLE `user`
 --
 ALTER TABLE `campagne`
   ADD CONSTRAINT `campagne_ibfk_1` FOREIGN KEY (`camp_exr`) REFERENCES `experience` (`exr_id`);
-
---
--- Contraintes pour la table `contient`
---
-ALTER TABLE `contient`
-  ADD CONSTRAINT `contient_ibfk_1` FOREIGN KEY (`qutaire`) REFERENCES `questaire` (`qutaire_id`),
-  ADD CONSTRAINT `contient_ibfk_2` FOREIGN KEY (`quest`) REFERENCES `question` (`quest_id`);
-
---
--- Contraintes pour la table `lancer`
---
-ALTER TABLE `lancer`
-  ADD CONSTRAINT `lancer_ibfk_1` FOREIGN KEY (`exp`) REFERENCES `experiment` (`exp_id`),
-  ADD CONSTRAINT `lancer_ibfk_2` FOREIGN KEY (`exr`) REFERENCES `experience` (`exr_id`);
-
---
--- Contraintes pour la table `questaire`
---
-ALTER TABLE `questaire`
-  ADD CONSTRAINT `questaire_ibfk_1` FOREIGN KEY (`qutaire_camp`) REFERENCES `campagne` (`camp_id`);
-
---
--- Contraintes pour la table `reponse`
---
-ALTER TABLE `reponse`
-  ADD CONSTRAINT `reponse_ibfk_1` FOREIGN KEY (`usr`) REFERENCES `user` (`usr_id`),
-  ADD CONSTRAINT `reponse_ibfk_2` FOREIGN KEY (`qutaire`) REFERENCES `questaire` (`qutaire_id`),
-  ADD CONSTRAINT `reponse_ibfk_3` FOREIGN KEY (`quest`) REFERENCES `question` (`quest_id`);
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
