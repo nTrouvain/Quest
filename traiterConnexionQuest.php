@@ -44,13 +44,13 @@ if (!empty($_POST['mail']) and !empty($_POST['mdp'])) {
     
 if ($_validation_exp)
     {
-        header("Location: http://localhost/web/Quest/PageAcceuilEXP.php");
+        header("Location: PageAcceuilEXP.php");
     }
 else if ($_validation_user)
     {
-        header("Location: http://localhost/web/Quest/PageAccueilUSER.php");
+        header("Location: PageAccueilUSER.php");
     }
-else {header("Location: http://localhost/web/Quest/connexionQuest.php");}
+else {header("Location: connexionQuest.php");}
     
 }
 ?>
