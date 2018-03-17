@@ -7,18 +7,20 @@ if (!empty($_POST['mail']) and !empty($_POST['mdp'])) {
     
     $mail = $_POST['mail'];
     $mdp = $_POST['mdp'];
-    $stmt =$BDD->prepare('select exp_id from experiment where exp_mail=? and exp_mdp=?');
+    $stmt =$BDD->prepare('select exp_id,exp_prenom from experiment where exp_mail=? and exp_mdp=?');
     $stmt->execute(array($mail, $mdp));
     if ($stmt->rowCount() == 1 ) 
     {
         while ($row = $stmt->fetch())
          {
             $idEXP=$row['exp_id'];
+            $nomEXP=$row['exp_prenom'];
          }
        
         // Authentication successful
                 $_validation_exp=true;
                 $_SESSION['idEXP']=$idEXP;
+                $_SESSION['nomEXP']=$nomEXP;
         
 
     }
@@ -48,7 +50,7 @@ else if ($_validation_user)
     {
         header("Location: http://localhost/web/Quest/PageAccueilUSER.php");
     }
-else {header("Location: http://localhost/web/Quest/connexionQuest.html");}
+else {header("Location: http://localhost/web/Quest/connexionQuest.php");}
     
 }
 ?>
