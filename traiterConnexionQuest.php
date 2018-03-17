@@ -21,8 +21,6 @@ if (!empty($_POST['mail']) and !empty($_POST['mdp'])) {
                 $_validation_exp=true;
                 $_SESSION['idEXP']=$idEXP;
                 $_SESSION['nomEXP']=$nomEXP;
-        
-
     }
     
        

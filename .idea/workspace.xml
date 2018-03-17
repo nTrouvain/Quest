@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="08c3c949-67b8-49e1-baba-7a58ed201338" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/AffichageQuestionnaireTest.php" afterPath="" />
       <change beforePath="$PROJECT_DIR$/traiterConnexionQuest.php" afterPath="$PROJECT_DIR$/traiterConnexionQuest.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -81,11 +80,11 @@
       <file leaf-file-name="traiterConnexionQuest.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/traiterConnexionQuest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1155">
-              <caret line="55" column="2" lean-forward="true" selection-start-line="55" selection-start-column="2" selection-end-line="55" selection-end-column="2" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding>
-                <marker date="1521297641961" expanded="true" signature="245:316" ph="select exp_i... experiment" />
-                <marker date="1521297641961" expanded="true" signature="765:819" ph="select usr_i... user" />
+                <marker date="1521298173059" expanded="true" signature="245:316" ph="select exp_i... experiment" />
+                <marker date="1521298173059" expanded="true" signature="755:809" ph="select usr_i... user" />
               </folding>
             </state>
           </provider>
@@ -189,12 +188,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1521296652153</updated>
-      <workItem from="1521296654560" duration="1060000" />
+      <workItem from="1521296654560" duration="1946000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1060000" />
+    <option name="totallyTimeSpent" value="1946000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="7" />
@@ -321,11 +320,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/traiterConnexionQuest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1155">
-          <caret line="55" column="2" lean-forward="true" selection-start-line="55" selection-start-column="2" selection-end-line="55" selection-end-column="2" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1521297641961" expanded="true" signature="245:316" ph="select exp_i... experiment" />
-            <marker date="1521297641961" expanded="true" signature="765:819" ph="select usr_i... user" />
+            <marker date="1521298173059" expanded="true" signature="245:316" ph="select exp_i... experiment" />
+            <marker date="1521298173059" expanded="true" signature="755:809" ph="select usr_i... user" />
           </folding>
         </state>
       </provider>
