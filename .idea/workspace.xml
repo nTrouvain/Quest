@@ -2,7 +2,43 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="08c3c949-67b8-49e1-baba-7a58ed201338" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/traiterConnexionQuest.php" afterPath="$PROJECT_DIR$/traiterConnexionQuest.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/head.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/style/style.css" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/CaviarDreams.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/CreationCompteExpe.html" afterPath="$PROJECT_DIR$/CreationCompteExpe.html" />
+      <change beforePath="$PROJECT_DIR$/CreerCampagne.php" afterPath="$PROJECT_DIR$/CreerCampagne.php" />
+      <change beforePath="$PROJECT_DIR$/CreerCompteUSER.html" afterPath="$PROJECT_DIR$/CreerCompteUSER.html" />
+      <change beforePath="$PROJECT_DIR$/CreerQuestionnaire.php" afterPath="$PROJECT_DIR$/CreerQuestionnaire.php" />
+      <change beforePath="$PROJECT_DIR$/CréerExperience.html" afterPath="$PROJECT_DIR$/CréerExperience.html" />
+      <change beforePath="$PROJECT_DIR$/Moon Flower.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/PageAcceuilCampagne.php" afterPath="$PROJECT_DIR$/PageAcceuilCampagne.php" />
+      <change beforePath="$PROJECT_DIR$/PageAcceuilEXP.php" afterPath="$PROJECT_DIR$/PageAcceuilEXP.php" />
+      <change beforePath="$PROJECT_DIR$/PageAcceuilExperience.php" afterPath="$PROJECT_DIR$/PageAcceuilExperience.php" />
+      <change beforePath="$PROJECT_DIR$/PageAccueilUSER.php" afterPath="$PROJECT_DIR$/PageAccueilUSER.php" />
+      <change beforePath="$PROJECT_DIR$/Web-Design.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/big_noodle_titling.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-3.3.7-dist/bootstrap-3.3.7-dist/css/bootstrap-theme.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-3.3.7-dist/bootstrap-3.3.7-dist/css/bootstrap-theme.css.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-3.3.7-dist/bootstrap-3.3.7-dist/css/bootstrap-theme.min.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-3.3.7-dist/bootstrap-3.3.7-dist/css/bootstrap-theme.min.css.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-3.3.7-dist/bootstrap-3.3.7-dist/css/bootstrap.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-3.3.7-dist/bootstrap-3.3.7-dist/css/bootstrap.css.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-3.3.7-dist/bootstrap-3.3.7-dist/css/bootstrap.min.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-3.3.7-dist/bootstrap-3.3.7-dist/css/bootstrap.min.css.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-3.3.7-dist/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-3.3.7-dist/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-3.3.7-dist/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-3.3.7-dist/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-3.3.7-dist/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.woff2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-3.3.7-dist/bootstrap-3.3.7-dist/js/bootstrap.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-3.3.7-dist/bootstrap-3.3.7-dist/js/bootstrap.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-3.3.7-dist/bootstrap-3.3.7-dist/js/npm.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/connexionQuest.php" afterPath="$PROJECT_DIR$/connexionQuest.php" />
+      <change beforePath="$PROJECT_DIR$/indexQuest.php" afterPath="$PROJECT_DIR$/indexQuest.php" />
+      <change beforePath="$PROJECT_DIR$/jquery-3.3.1.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/quest.sql" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/scriptBDD.sql" afterPath="" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -41,11 +77,48 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="PageAcceuilEXP.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PageAcceuilEXP.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+              <folding>
+                <marker date="1521302658349" expanded="true" signature="139:222" ph="select * fro... experience" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PageAcceuilExperience.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PageAcceuilExperience.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="462">
+              <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+              <folding>
+                <marker date="1521306755545" expanded="true" signature="142:181" ph="select * fro... experience" />
+                <marker date="1521306755545" expanded="true" signature="290:329" ph="select * fro... campagne" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PageAccueilUSER.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PageAccueilUSER.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="378">
+              <caret line="18" column="63" lean-forward="false" selection-start-line="18" selection-start-column="63" selection-end-line="18" selection-end-column="63" />
+              <folding>
+                <marker date="1521306756116" expanded="true" signature="108:191" ph="select * fro... experience" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="RepondreQuestionnaire.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/RepondreQuestionnaire.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="441">
-              <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+              <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
               <folding>
                 <marker date="1521296716666" expanded="true" signature="278:320" ph="SELECT * FRO... questaire" />
                 <marker date="1521296716666" expanded="true" signature="1018:1056" ph="SELECT * FRO... contient" />
@@ -55,33 +128,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PageAcceuilEXP.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PageAcceuilEXP.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="397">
-              <caret line="94" column="11" lean-forward="true" selection-start-line="94" selection-start-column="11" selection-end-line="94" selection-end-column="11" />
-              <folding>
-                <marker date="1521296573252" expanded="true" signature="135:218" ph="select * fro... experience" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="connexionQuest.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/connexionQuest.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-389">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="traiterConnexionQuest.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="traiterConnexionQuest.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/traiterConnexionQuest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="21">
+              <caret line="1" column="32" lean-forward="true" selection-start-line="1" selection-start-column="32" selection-end-line="1" selection-end-column="32" />
               <folding>
                 <marker date="1521298173059" expanded="true" signature="245:316" ph="select exp_i... experiment" />
                 <marker date="1521298173059" expanded="true" signature="755:809" ph="select usr_i... user" />
@@ -90,17 +141,77 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="console.sql" pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/54b6b0a3-169d-461e-bc83-31f36392ebc7/console.sql">
+      <file leaf-file-name="TraiterCreationCompteEXP.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TraiterCreationCompteEXP.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <marker date="1521296096582" expanded="true" signature="478:594" ph="INSERT INTO experiment... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TraiterCreationCompteUSER.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TraiterCreationCompteUSER.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="9" column="4" lean-forward="false" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+              <folding>
+                <marker date="1521296096582" expanded="true" signature="354:432" ph="INSERT INTO user... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TraiterCreerCampagne.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TraiterCreerCampagne.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <marker date="1521296096583" expanded="true" signature="589:729" ph="INSERT INTO campagne... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TraiterCreerExp.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TraiterCreerExp.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-200">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <marker date="1521296096583" expanded="true" signature="663:776" ph="INSERT INTO experience... " />
+                <marker date="1521296096583" expanded="true" signature="1266:1311" ph="INSERT INTO lancer... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TraiterCreerQuestionnaire.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/TraiterCreerQuestionnaire.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <marker date="1521296096583" expanded="true" signature="515:626" ph="INSERT INTO questaire... " />
+                <marker date="1521296096583" expanded="true" signature="927:968" ph="select * fro... question" />
+                <marker date="1521296096583" expanded="true" signature="1108:1183" ph="INSERT INTO contient... " />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -111,6 +222,19 @@
         <option value="$PROJECT_DIR$/RepondreQuestionnaire.php" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/54b6b0a3-169d-461e-bc83-31f36392ebc7/console.sql" />
         <option value="$PROJECT_DIR$/traiterConnexionQuest.php" />
+        <option value="$PROJECT_DIR$/style/style.css" />
+        <option value="$PROJECT_DIR$/PageAcceuilEXP.php" />
+        <option value="$PROJECT_DIR$/head.php" />
+        <option value="$PROJECT_DIR$/PageAcceuilExperience.php" />
+        <option value="$PROJECT_DIR$/connexionQuest.php" />
+        <option value="$PROJECT_DIR$/CreationCompteExpe.html" />
+        <option value="$PROJECT_DIR$/CreerCampagne.php" />
+        <option value="$PROJECT_DIR$/CreerCompteUSER.html" />
+        <option value="$PROJECT_DIR$/CreerQuestionnaire.php" />
+        <option value="$PROJECT_DIR$/CréerExperience.html" />
+        <option value="$PROJECT_DIR$/indexQuest.php" />
+        <option value="$PROJECT_DIR$/PageAcceuilCampagne.php" />
+        <option value="$PROJECT_DIR$/PageAccueilUSER.php" />
       </list>
     </option>
   </component>
@@ -162,6 +286,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -188,12 +313,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1521296652153</updated>
-      <workItem from="1521296654560" duration="1946000" />
+      <workItem from="1521296654560" duration="5532000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1946000" />
+    <option name="totallyTimeSpent" value="5532000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="7" />
@@ -204,7 +329,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1265625" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12604167" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -262,7 +387,118 @@
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/54b6b0a3-169d-461e-bc83-31f36392ebc7/console.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Web-Design.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mymovies-correction-master/includes/scripts.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="57" lean-forward="true" selection-start-line="3" selection-start-column="57" selection-end-line="3" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mymovies-correction-master/includes/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/style/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="26" lean-forward="true" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mymovies-correction-master/includes/head.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="4" lean-forward="false" selection-start-line="2" selection-start-column="4" selection-end-line="3" selection-end-column="72" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/connect_to_quest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/connexionQuest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="640">
+          <caret line="49" column="14" lean-forward="true" selection-start-line="49" selection-start-column="14" selection-end-line="49" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CreationCompteExpe.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" column="6" lean-forward="true" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CreerCampagne.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="53" column="63" lean-forward="false" selection-start-line="53" selection-start-column="63" selection-end-line="53" selection-end-column="63" />
+          <folding>
+            <marker date="1521306755982" expanded="true" signature="571:711" ph="INSERT INTO campagne... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CreerCompteUSER.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CreerQuestionnaire.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="19" column="6" lean-forward="true" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CréerExperience.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/footerQuest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/head.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="27" lean-forward="true" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
           <folding />
         </state>
       </provider>
@@ -275,23 +511,60 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CreerCompteUSER.html">
+    <entry file="file://$PROJECT_DIR$/indexQuest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="336">
+          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Web-Design.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
+    <entry file="file://$PROJECT_DIR$/PageAcceuilCampagne.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="26" column="61" lean-forward="false" selection-start-line="26" selection-start-column="61" selection-end-line="26" selection-end-column="61" />
+          <folding>
+            <marker date="1521306756015" expanded="true" signature="109:147" ph="select * fro... campagne" />
+            <marker date="1521306756015" expanded="true" signature="241:285" ph="select * fro... questaire" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PageAcceuilEXP.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding>
+            <marker date="1521302658349" expanded="true" signature="139:222" ph="select * fro... experience" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PageAcceuilExperience.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding>
+            <marker date="1521306755545" expanded="true" signature="142:181" ph="select * fro... experience" />
+            <marker date="1521306755545" expanded="true" signature="290:329" ph="select * fro... campagne" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PageAccueilUSER.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="18" column="63" lean-forward="false" selection-start-line="18" selection-start-column="63" selection-end-line="18" selection-end-column="63" />
+          <folding>
+            <marker date="1521306756116" expanded="true" signature="108:191" ph="select * fro... experience" />
+          </folding>
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/RepondreQuestionnaire.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="441">
-          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
           <folding>
             <marker date="1521296716666" expanded="true" signature="278:320" ph="SELECT * FRO... questaire" />
             <marker date="1521296716666" expanded="true" signature="1018:1056" ph="SELECT * FRO... contient" />
@@ -300,31 +573,66 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PageAcceuilEXP.php">
+    <entry file="file://$PROJECT_DIR$/traiterConnexionQuest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="397">
-          <caret line="94" column="11" lean-forward="true" selection-start-line="94" selection-start-column="11" selection-end-line="94" selection-end-column="11" />
+        <state relative-caret-position="21">
+          <caret line="1" column="32" lean-forward="true" selection-start-line="1" selection-start-column="32" selection-end-line="1" selection-end-column="32" />
           <folding>
-            <marker date="1521296573252" expanded="true" signature="135:218" ph="select * fro... experience" />
+            <marker date="1521298173059" expanded="true" signature="245:316" ph="select exp_i... experiment" />
+            <marker date="1521298173059" expanded="true" signature="755:809" ph="select usr_i... user" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/connexionQuest.php">
+    <entry file="file://$PROJECT_DIR$/TraiterCreationCompteUSER.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-389">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="189">
+          <caret line="9" column="4" lean-forward="false" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+          <folding>
+            <marker date="1521296096582" expanded="true" signature="354:432" ph="INSERT INTO user... " />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/traiterConnexionQuest.php">
+    <entry file="file://$PROJECT_DIR$/TraiterCreationCompteEXP.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1521298173059" expanded="true" signature="245:316" ph="select exp_i... experiment" />
-            <marker date="1521298173059" expanded="true" signature="755:809" ph="select usr_i... user" />
+            <marker date="1521296096582" expanded="true" signature="478:594" ph="INSERT INTO experiment... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TraiterCreerCampagne.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1521296096583" expanded="true" signature="589:729" ph="INSERT INTO campagne... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TraiterCreerExp.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-200">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1521296096583" expanded="true" signature="663:776" ph="INSERT INTO experience... " />
+            <marker date="1521296096583" expanded="true" signature="1266:1311" ph="INSERT INTO lancer... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TraiterCreerQuestionnaire.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1521296096583" expanded="true" signature="515:626" ph="INSERT INTO questaire... " />
+            <marker date="1521296096583" expanded="true" signature="927:968" ph="select * fro... question" />
+            <marker date="1521296096583" expanded="true" signature="1108:1183" ph="INSERT INTO contient... " />
           </folding>
         </state>
       </provider>
