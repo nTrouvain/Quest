@@ -15,8 +15,8 @@ $stmt->execute(array($idEXP));
 <head>
 	<title> Page d'acceuil USER</title>
 	<meta charset="utf-8"/>
-  <link rel="stylesheet"  href="bootstrap-3.3.7-dist/bootstrap-3.3.7-dist/css/bootstrap-themes.css">
-  <link rel="stylesheet"  href="bootstrap-3.3.7-dist/bootstrap-3.3.7-dist/css/bootstrap.css">
+    <link rel="stylesheet"  href="bootstrap/css/bootstrap-theme.css">
+    <link rel="stylesheet"  href="bootstrap/css/bootstrap.css">
  
 
 </head>

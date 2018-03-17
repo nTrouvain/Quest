@@ -50,8 +50,8 @@ if (!empty($_POST['description']) and !empty($_POST['dateDebut'])and !empty($_PO
 <head>
 	<title> Ajouter campagne</title>
 	<meta charset="utf-8"/>
-  <link rel="stylesheet"  href="bootstrap-3.3.7-dist/bootstrap-3.3.7-dist/css/bootstrap-themes.css">
-  <link rel="stylesheet"  href="bootstrap-3.3.7-dist/bootstrap-3.3.7-dist/css/bootstrap.css">
+    <link rel="stylesheet"  href="bootstrap/css/bootstrap-theme.css">
+    <link rel="stylesheet"  href="bootstrap/css/bootstrap.css">
  
 
 </head>

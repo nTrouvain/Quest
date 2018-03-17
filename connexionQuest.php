@@ -3,11 +3,11 @@
 <head>
 	<title> Connexion </title>
 	<meta charset="utf-8"/>
-  <link rel="stylesheet"  href="bootstrap-3.3.7-dist/bootstrap-3.3.7-dist/css/bootstrap-themes.css">
-  <link rel="stylesheet"  href="bootstrap-3.3.7-dist/bootstrap-3.3.7-dist/css/bootstrap.css">
+  <link rel="stylesheet"  href="bootstrap/css/bootstrap-theme.css">
+  <link rel="stylesheet"  href="bootstrap/css/bootstrap.css">
 
-  <script src="jquery-3.3.1.js"></script> 
-  <script src="bootstrap-3.3.7-dist/bootstrap-3.3.7-dist/js/bootstrap.js "></script>
+  <script src="script/jquery-3.3.1.js"></script>
+  <script src="bootstrap/js/bootstrap.js "></script>
   <style>
  .form-control {background-color: black ; background-size: cover;} 
  #mail{background-color: #f5f5f5 ; background-size: cover;}
