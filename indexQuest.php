@@ -5,7 +5,7 @@ require('connect_to_quest.php');
 <!doctype html>
 <html>
 <head>
-  <title> Page d'acceuil EXPERIMENTATEUR</title>
+  <title> Index</title>
   <meta charset="utf-8"/>
     <link rel="stylesheet"  href="bootstrap/css/bootstrap-theme.css">
     <link rel="stylesheet"  href="bootstrap/css/bootstrap.css">
@@ -14,20 +14,61 @@ require('connect_to_quest.php');
   <script src="script/jquery-3.3.1.js"></script>
   <script src="bootstrap/js/bootstrap.js "></script>
   <style>
-
 @font-face {
 font-family: 'caviar';
 src: url('CaviarDreams.ttf');
-
 font-weight: normal;
 font-style: normal;
 }
-
-.row { background:#181015  ; background-size: cover; min-height:300px; text-align: left; padding-top:240px; color:white; font-family:"Open sans", Helvetica, Arial; font-weight:300;opacity:0.7; }
+#case1 { background:#181015  ; background-size: cover; min-height:300px; text-align: left; padding-top:100px; color:white; font-family:"caviar"; font-weight:300;opacity:0.85; }
 #head .lead { font-family:'caviar'; font-size:44px; margin-bottom:50px; color:white; line-height:1.15em; background:#181015;opacity: 0.8;} 
-.col-md-8 {background:white; font-family:'caviar';}
-.col-md-4 {background:white; font-family:'caviar';}
-#index{ background:#181015 url( "Web-Design.jpg") no-repeat; background-size: cover;}
+
+#index{ background:#181015 url( "img/Web-Design.jpg") no-repeat; background-size: cover;}
+#btn,#btn1,#btn2{
+  padding: 20px 20px;
+  background: #F27E0A;
+  font-size: 20px;
+  margin-left: 40px;
+}
+#Bienvenue, #lesite{
+  margin-left: 40px;
+  margin-top: 0px;
+}
+#casedroite,#casegauche{
+ 
+  background: #EF9943;
+  
+  font-family:"caviar"; 
+  
+  color:white;
+  opacity:0.95;
+
+ 
+}
+#casemilieu{
+
+}
+#expérimentateur{
+  text-align: left;
+}
+#btn1{
+  padding: 20px 20px;
+  background: #F27E0A;
+  font-size: 20px;
+  margin-left: 125px;
+ 
+  margin-bottom: 10px;
+  color:white;
+}
+#btn2{
+  padding: 20px 20px;
+  background: #F27E0A;
+  font-size: 20px;
+  margin-left: 160px;
+  margin-bottom: 10px;
+}
+
+
 </style>
  
 
@@ -37,20 +78,40 @@ font-style: normal;
     <br/>
     <br/>
     <br/>
-    <br/>
-    <br/>
+    
     
 
    
     <header >
      <div class="container">
-      <div class="row" >
-
-      </div>
-        <div class="row">
-        </div>
-          <div class="row">
+      <div class="row" id="case1" >
+        <h1 id="Bienvenue">Bienvenue sur Quest, </h1>
+        <h1 id="lesite"> le site de partage et de passation de questionnaires</h1>
+        <button id="btn" type="button" class="btn btn-secondary" > Comment ça marche ?
+       </button>
+     
           </div>
+          <br/>
+          <HR size=5 width="80%"/>
+          <br/>
+          
+          <div class="row" >
+            <div class="col-md-5" id="casedroite">
+              <h1 id='expérimentateur'>Vous êtes un expérimentateur ?</h1>
+              <a  href="CreationCompteExpe.html"><button id="btn1" type="button" class="btn btn-secondary"> Créez un compte
+              </button></a>
+            </div>
+            <div class="col-md-2" id="casemilieu">
+            </div>
+            <div class="col-md-5" id="casegauche">
+              <h1 id='expérimentateur'>Vous souhaitez répondre à un questionnaire ?</h1>
+              <button id="btn2" type="button" class="btn btn-secondary" > Cliquez ici
+              </button>
+            </div>
+
+     
+          </div>
+
 
       
     
@@ -67,16 +128,9 @@ font-style: normal;
       </div>
     </div>
    
-    <script>
-      $("body").on("hidden.bs.modal", ".modal", function () {
-          $(this).removeData("bs.modal");
-      });
-      $("#page1").click(function() { 
-        $("#infos").modal({ remote: "connexionQuest.php" } ,"show");
-      });
-      
-    </script>
+   
   
-
+<HR size=5 width="80%"/>
+<?php require_once "footerQuest.php"; ?>
   </body>
 </html>

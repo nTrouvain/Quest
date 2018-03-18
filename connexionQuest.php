@@ -9,11 +9,11 @@
   <script src="script/jquery-3.3.1.js"></script>
   <script src="bootstrap/js/bootstrap.js "></script>
   <style>
- .form-control {background-color: black ; background-size: cover;} 
- #mail{background-color: #f5f5f5 ; background-size: cover;}
- #mdp{background-color: #f5f5f5 ; background-size: cover;}
- #bouton{background-color: #f5f5f5 ; background-size: cover;}
- #connexion{background-color: #f5f5f5 ; background-size: cover;}
+
+ #mail{background-color: inherit ; background-size: cover;}
+ #mdp{background-color: inherit ; background-size: cover;}
+ #bouton{background-color: inherit ; background-size: cover;}
+ #connexion{background-color: inherit ; background-size: cover;}
 </style>
 
 

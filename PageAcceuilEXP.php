@@ -28,11 +28,11 @@ $stmt->execute(array($idEXP));
     </div>
 </header>
 <div class="container-fluid">
-    <article class="col-md-8 maincontent">
+    <article class="col-md-8 maincontent" id="creerExp">
 
-        <h1><a href="CréerExperience.html">Créer EXPERIENCE</a></h1>
-        <button data-toggle="modal" href="#infos" class="btn btn-primary">Informations</button>
-        <div class="modal" id="infos">
+        <h1><a href="CreerExperience.php">Créer EXPERIENCE</a></h1>
+        <button data-toggle="modal" href="#i" class="btn btn-primary">Informations</button>
+        <div class="modal" id="i">
             <div class="modal-dialog">
                 <div class="modal-content">
                     <div class="modal-header">
@@ -67,7 +67,7 @@ $stmt->execute(array($idEXP));
     </aside>
 </div>
 
-
+<HR width="80%"/>
 <?php require_once "footerQuest.php"; ?>
 
 </body>

@@ -24,7 +24,7 @@
 #head .lead {
     font-family:'caviar';
     font-size:44px;
-    margin-bottom:50px;
+    margin-bottom:60px;
     color:white;
     line-height:1.15em;
     background:#181015;
@@ -34,7 +34,7 @@
 .col-md-8 {
     background:white;
     font-family:'caviar';
-    border-right: 2px black solid;
+   
 }
 
 .container-fluid {
@@ -44,13 +44,16 @@
     border: 2px #181015;
 }
 
-#pied {background:black;}
+
 
 #listexp {color: black;}
 
-#piedpage {
-    background:#181015;
+#pied {
+    background: white;
     background-size : cover;
     font-family:'caviar';
-    min-height:100px;
+    min-height:50px;
+}
+#con{
+    padding: 14px 16px;
 }

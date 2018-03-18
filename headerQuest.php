@@ -25,7 +25,7 @@ require('connect_to_quest.php');
 		<?php if (empty($_SESSION['idEXP']) or empty($_SESSION['idUSER'])) { ?>
 
       <div class="btn-group" >
-        <button id="con" class="btn btn-block btn-success"><span class="glyphicon glyphicon-user"></span>connexion</button>
+        <button id="con" class="btn btn-block btn-success"><span class="glyphicon glyphicon-user"></span> connexion</button>
       
      
   
