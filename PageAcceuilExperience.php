@@ -12,46 +12,63 @@
     $requete=$BDD->prepare('select * from campagne where camp_exr=?');
     $requete->execute(array($idExperience));
 ?>
-
 <html>
-<head>
-	<title> Gestion expérience</title>
-	<meta charset="utf-8"/>
-  <link rel="stylesheet"  href="bootstrap/css/bootstrap-theme.css">
-  <link rel="stylesheet"  href="bootstrap/css/bootstrap.css">
- 
+<?php require_once "head.php"; ?>
+<body >
+    <?php require_once "headerQuestExpConnecte.php"; ?>
+<header id="headexp">
+    <div class="container">
 
-</head>
-<body>
- <h2 class="text-center">Gestion d'expérience</h2>
-  <div class="jumbotron">
-            <div class="row">
-                
-                <div class="col-md-7 col-sm-5">
-                    <h2><?= $experience['exr_nom'] ?></h2>
-                    
-                    <p><small><?= $experience['exr_desc'] ?></small></p>
-                    <h2>Campagne(s) de cette expérience :</h2>
-                    <?php foreach ($requete as $campagne) { ?>
+        <div class="row">
+            <div class="container">
+      <div class="row" >
+            <div class="col-md-4" >
+            
+                          
+            </div>
+            <div class="col-md-4" id="description">
+                <h1 ><?= $experience['exr_nom'] ?></h1>
+        <p><small><?= $experience['exr_desc'] ?></small></p>
+
+            </div>
+            <div class="col-md-4" >
+              
+            </div>
+
+     
+          </div>
+       
+            
+          </div>
+            <h1 class="lead">Gestion d'expérience </h1>
+
+
+        </div>
+    </div>
+</header>
+
+
+
+<div class="container-fluid">
+    <article class="col-md-8 maincontent" >
+         <h3><a  href="CreerCampagne.php?id=<?=$idExperience?>">Ajouter une campagne</a></h3>
+
+    </article>
+
+    
+    <aside class="col-md-4 sidebar sidebar-right">
+        <h2 id="listexp"> Liste des campagnes dans cette expérience : </h2>
+        <?php foreach ($requete as $campagne) { ?>
                        <article>
                         <h5><a class="nom_campagne" href="PageAcceuilCampagne.php?id=<?=$campagne['camp_id']?>"><?= $campagne["camp_nom"] ?></a></h5>
                 
                       </article>
                     <?php } ?>
-  
-                
-                    
+    </aside>
+</div>
 
-                    <h3><a  href="CreerCampagne.php?id=<?=$idExperience?>">Ajouter une campagne</a></h3>
-                </h2>
-            </div>
-        </div>
- 
-
-  
-  
- 
-  
+<HR width="80%"/>
+<?php require_once "footerQuest.php"; ?>
 
 </body>
 </html>

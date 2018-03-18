@@ -91,6 +91,7 @@ font-style: normal;
        </button>
      
           </div>
+        </div>
           <br/>
           <HR size=5 width="80%"/>
           <br/>
@@ -98,7 +99,7 @@ font-style: normal;
           <div class="row" >
             <div class="col-md-5" id="casedroite">
               <h1 id='expérimentateur'>Vous êtes un expérimentateur ?</h1>
-              <a  href="CreationCompteExpe.html"><button id="btn1" type="button" class="btn btn-secondary"> Créez un compte
+              <a  href="CreationCompteExpe.php"><button id="btn1" type="button" class="btn btn-secondary"> Créez un compte
               </button></a>
             </div>
             <div class="col-md-2" id="casemilieu">

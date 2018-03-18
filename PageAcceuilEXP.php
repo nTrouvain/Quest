@@ -16,7 +16,7 @@ $stmt->execute(array($idEXP));
 
 <body>
 
-<?php require_once "headerQuest.php"; ?>
+<?php require_once "headerQuestExpConnecte.php"; ?>
 
 <header id="head">
     <div class="container">

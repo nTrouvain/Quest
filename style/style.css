@@ -20,8 +20,16 @@
     font-family:"Open sans", Helvetica, Arial;
     font-weight:300;
 }
+#headexp {
+    background:#181015 url( "../img/Web-Design.jpg") no-repeat;
+    background-size: cover; min-height:300px;
+    text-align: left;
+    padding-top:100px; color:white;
+    font-family:"Open sans", Helvetica, Arial;
+    font-weight:300;
+}
 
-#head .lead {
+#head .lead, #headexp .lead {
     font-family:'caviar';
     font-size:44px;
     margin-bottom:60px;
@@ -57,3 +65,16 @@
 #con{
     padding: 14px 16px;
 }
+#description{
+    font-family:'caviar';
+    background: #F27E0A;
+   
+    margin-bottom:60px;
+    color:white;
+    line-height:1.15em;
+    
+    opacity: 0.95;
+
+}
+
+
