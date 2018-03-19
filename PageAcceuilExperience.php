@@ -11,6 +11,12 @@
 
     $requete=$BDD->prepare('select * from campagne where camp_exr=?');
     $requete->execute(array($idExperience));
+
+    $req=$BDD->prepare('select exp from lancer where exr=?');
+    $req->execute(array($idExperience));
+   
+     
+
 ?>
 <html>
 <?php require_once "head.php"; ?>
@@ -50,8 +56,57 @@
 
 
 <div class="container-fluid">
+   
+
+
     <article class="col-md-8 maincontent" >
-         <h3><a  href="CreerCampagne.php?id=<?=$idExperience?>">Ajouter une campagne</a></h3>
+        <div class="container">
+
+        <div class="row">
+            <div class="container">
+      <div class="row" >
+         <br/>
+    <br/>
+    <br/>
+            <div class="col-md-4" id="gptravail">
+                      <span id="code">Code de l'expérience : <?php echo $idExperience?></span>
+        <br/>
+        <span id="expli">Partagez ce code avec les expérimentateurs que vous souhaitez inviter dans votre groupe de travail</span>
+        <br/>
+        <span id="membre">Membres du groupe de travail :</span>
+        <br/>
+        <?php
+         foreach ($req as $id) 
+    {
+        $iden=$id["exp"];
+        $reque=$BDD->prepare('select * from experiment where exp_id=?');
+        $reque->execute(array($iden));
+        foreach ($reque as $nom) 
+        {   echo '<br/>';
+            echo $nom['exp_nom']." "; 
+            echo $nom['exp_prenom']." ";
+            echo $nom['exp_mail'];
+        }
+   }
+                       
+            ?>
+        
+                          
+            </div>
+            <div class="col-md-4" >
+     
+
+            </div>
+            <div class="col-md-4" >
+              
+            </div>
+
+     
+          </div>
+       
+            
+          </div>
+       
 
     </article>
 
@@ -61,9 +116,11 @@
         <?php foreach ($requete as $campagne) { ?>
                        <article>
                         <h5><a class="nom_campagne" href="PageAcceuilCampagne.php?id=<?=$campagne['camp_id']?>"><?= $campagne["camp_nom"] ?></a></h5>
-                
-                      </article>
+                        
+                      
                     <?php } ?>
+                        <h3><a  href="CreerCampagne.php?id=<?=$idExperience?>">Ajouter une campagne</a></h3>
+                      </article>
     </aside>
 </div>
 

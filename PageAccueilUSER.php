@@ -6,21 +6,14 @@ $stmt = $BDD->prepare('select * from experience,lancer where lancer.exp=? and la
 $stmt->execute(array($idEXP));
 
 
-
 ?>
 
 
 <!doctype html>
 <html>
-<head>
-	<title> Page d'acceuil USER</title>
-	<meta charset="utf-8"/>
-    <link rel="stylesheet"  href="bootstrap/css/bootstrap-theme.css">
-    <link rel="stylesheet"  href="bootstrap/css/bootstrap.css">
- 
-
-</head>
+<?php require_once'head.php';?>
 <body>
+<?php require_once'headerQuest.php';?>
  <h2 class="text-center">Page d'acceuil USER</h2>
  <h1><a href="RepondreQuestionnaire.php">Répondre à un questionnaire</a></h1>
  <div class="well">

@@ -41,6 +41,7 @@ if (!empty($_POST['mail']) and !empty($_POST['mdp'])) {
                 $_validation_user=true;
                 $_SESSION['validationUSER']=$_validation_user;
                 $_SESSION['idUSER']=$idUSER;
+                $_SESSION['connecte']=true;
 
         
 

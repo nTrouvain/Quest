@@ -76,5 +76,15 @@
     opacity: 0.95;
 
 }
-
+#gptravail{
+    border:2px solid #F27E0A;
+   
+}
+#expli{
+    color:#F27E0A;
+    font-size:15px;
+}
+#code,#membre{
+     font-size:24px;
+}
 

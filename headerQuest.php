@@ -5,6 +5,7 @@ $loged=$_SESSION['connecte'];
 
 $_validation_user=$_SESSION['validationUSER'];
 $_validation_exp=$_SESSION['validationEXP'];
+
 ?>
 <div class="navbar navbar-inverse navbar-fixed-top headroom" >
 		<div class="container">
@@ -32,14 +33,14 @@ $_validation_exp=$_SESSION['validationEXP'];
                             <span class="glyphicon glyphicon-user"></span> Bienvenue, <?= $_SESSION['nomEXP'] ?> <b class="caret"></b>
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a href="logout.php">Se déconnecter</a></li>
+                            <li><a href="deconnexion.php">Se déconnecter</a></li>
                         </ul>
                     </li>
                     <?php } 
                     if ($_validation_user){ ?>
                      <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                            <span class="glyphicon glyphicon-user"></span> Bienvenue, vous êtes connecté <b class="caret"></b>
+                            <span class="glyphicon glyphicon-user"></span> connecté <b class="caret"></b>
                         </a>
                         <ul class="dropdown-menu">
                             <li><a href="logout.php">Se déconnecter</a></li>

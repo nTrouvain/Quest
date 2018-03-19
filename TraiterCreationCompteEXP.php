@@ -1,5 +1,5 @@
-<?php
-session_start();
+<?php session_start();
+
 
 require("connect_to_quest.php");
 
@@ -7,6 +7,7 @@ if (!empty($_POST['prenom']) and !empty($_POST['mdp'])and !empty($_POST['mail'])
 {
 	$nom=$_POST['nom'];
 	$prenom=$_POST['prenom'];
+	$_SESSION['nomEXP']=$prenom;
 	$mdp=$_POST['mdp'];
 	$mail=$_POST['mail'];
 	$orga=$_POST['orga'];
@@ -16,6 +17,7 @@ if (!empty($_POST['prenom']) and !empty($_POST['mdp'])and !empty($_POST['mail'])
 	$idEXP = ''; 
 	for($i=0;$i < 5;$i++) 
 	 { $idEXP .= substr($characts,rand()%(strlen($characts)),1); } 
+	$_SESSION['idEXP']=$idEXP;
 	
 
 	
@@ -32,5 +34,8 @@ if (!empty($_POST['prenom']) and !empty($_POST['mdp'])and !empty($_POST['mail'])
 	
 //On exécute la requête
 	$requete->execute();
+	$_SESSION['connecte']=true;
+	$_SESSION['validationEXP']=true;
+	header("Location: PageAcceuilEXP.php");
 }
 ?>
