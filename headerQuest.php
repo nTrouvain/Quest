@@ -43,7 +43,7 @@ $_validation_exp=$_SESSION['validationEXP'];
                             <span class="glyphicon glyphicon-user"></span> connecté <b class="caret"></b>
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a href="logout.php">Se déconnecter</a></li>
+                            <li><a href="deconnexion.php">Se déconnecter</a></li>
                         </ul>
                        </li>
                 <?php } }

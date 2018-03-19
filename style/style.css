@@ -20,16 +20,16 @@
     font-family:"Open sans", Helvetica, Arial;
     font-weight:300;
 }
-#headexp {
+#headexp,#headUSER {
     background:#181015 url( "../img/Web-Design.jpg") no-repeat;
     background-size: cover; min-height:300px;
     text-align: left;
     padding-top:100px; color:white;
-    font-family:"Open sans", Helvetica, Arial;
+    font-family:'caviar';
     font-weight:300;
 }
 
-#head .lead, #headexp .lead {
+#head .lead, #headexp .lead, #headUSER .lead{
     font-family:'caviar';
     font-size:44px;
     margin-bottom:60px;
@@ -54,7 +54,10 @@
 
 
 
-#listexp {color: black;}
+#listexp {
+    color: black;
+    background: rgba(242,126,10,0.1);
+}
 
 #pied {
     background: white;
@@ -86,5 +89,69 @@
 }
 #code,#membre{
      font-size:24px;
+}
+#liste{
+    background: rgba(242,126,10,0.1);
+
+}
+#case1 { 
+    background:#181015  ;
+    background-size: cover;
+    min-height:300px;
+    text-align: left;
+    padding-top:100px;
+    color:white; font-family:"caviar";
+    font-weight:300;opacity:0.85; 
+}
+
+#index{ 
+    background:#181015 url( "../img/Web-Design.jpg") no-repeat;
+    background-size: cover;
+}
+#btn,#btn1,#btn2{
+  padding: 20px 20px;
+  background: #F27E0A;
+  font-size: 20px;
+  margin-left: 40px;
+}
+#Bienvenue, #lesite{
+  margin-left: 40px;
+  margin-top: 0px;
+}
+#casedroite,#casegauche{
+ 
+  background: #EF9943;
+  
+  font-family:"caviar"; 
+  
+  color:white;
+  opacity:0.95;
+
+ 
+}
+#casemilieu{
+
+}
+#expérimentateur{
+  text-align: left;
+}
+#btn1{
+  padding: 20px 20px;
+  background: #F27E0A;
+  font-size: 20px;
+  margin-left: 125px;
+ 
+  margin-bottom: 10px;
+  color:white;
+}
+#btn2{
+  padding: 20px 20px;
+  background: #F27E0A;
+  font-size: 20px;
+  margin-left: 160px;
+  margin-bottom: 10px;
+}
+#conteneurPageUSER1, #conteneurPageUSER2{
+    font:'caviar';
 }
 

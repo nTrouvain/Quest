@@ -84,8 +84,9 @@ if (!empty($_POST['code']))
         <br/>
         <br/>
     </article>
-    <aside class="col-md-4 sidebar sidebar-right">
-        <h2 id="listexp"> Liste des expériences existantes : </h2>
+    <br/>
+    <aside class="col-md-4 sidebar sidebar-right" id="listexp">
+        <h2 > Liste des expériences existantes : </h2>
         <?php foreach ($stmt as $experience) { ?>
             <article>
                 <h3><a class="nom_experience"
