@@ -1,5 +1,8 @@
 <?php session_start();
 require('connect_to_quest.php');
+$_SESSION['connecte']=false;
+$_SESSION['validationEXP']=false;
+$_SESSION['validationUSER']=false;
 ?>
 
 <!doctype html>

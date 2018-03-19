@@ -1,8 +1,10 @@
 <?php session_start();
 require("connect_to_quest.php");
-
+$_SESSION['connecte']=false;
 $validation_exp=false;
 $validation_user=false;
+$_SESSION['validationEXP']=false;
+$_SESSION['validationUSER']=false;
 if (!empty($_POST['mail']) and !empty($_POST['mdp'])) {
     
     $mail = $_POST['mail'];
@@ -19,8 +21,10 @@ if (!empty($_POST['mail']) and !empty($_POST['mdp'])) {
        
         // Authentication successful
                 $_validation_exp=true;
+                $_SESSION['validationEXP']=$_validation_exp;
                 $_SESSION['idEXP']=$idEXP;
                 $_SESSION['nomEXP']=$nomEXP;
+                $_SESSION['connecte']=true;
     }
     
        
@@ -35,7 +39,9 @@ if (!empty($_POST['mail']) and !empty($_POST['mdp'])) {
        
         // Authentication successful
                 $_validation_user=true;
+                $_SESSION['validationUSER']=$_validation_user;
                 $_SESSION['idUSER']=$idUSER;
+
         
 
     }

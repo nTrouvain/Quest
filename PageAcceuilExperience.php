@@ -15,7 +15,7 @@
 <html>
 <?php require_once "head.php"; ?>
 <body >
-    <?php require_once "headerQuestExpConnecte.php"; ?>
+    <?php require_once "headerQuest.php"; ?>
 <header id="headexp">
     <div class="container">
 

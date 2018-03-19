@@ -1,6 +1,10 @@
 
 <?php session_start();
 require('connect_to_quest.php');
+$loged=$_SESSION['connecte'];
+
+$_validation_user=$_SESSION['validationUSER'];
+$_validation_exp=$_SESSION['validationEXP'];
 ?>
 <div class="navbar navbar-inverse navbar-fixed-top headroom" >
 		<div class="container">
@@ -21,23 +25,43 @@ require('connect_to_quest.php');
 						</ul>
 					</li>
 					<li><a href="contact.html">Contact</a></li>
-					<li>
-		<?php if (empty($_SESSION['idEXP']) or empty($_SESSION['idUSER'])) { ?>
-
-      <div class="btn-group" >
-        <button id="con" class="btn btn-block btn-success"><span class="glyphicon glyphicon-user"></span> connexion</button>
+					<?php if ($loged) { 
+						if($_validation_exp){ ?>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                            <span class="glyphicon glyphicon-user"></span> Bienvenue, <?= $_SESSION['nomEXP'] ?> <b class="caret"></b>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="logout.php">Se déconnecter</a></li>
+                        </ul>
+                    </li>
+                    <?php } 
+                    if ($_validation_user){ ?>
+                     <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                            <span class="glyphicon glyphicon-user"></span> Bienvenue, vous êtes connecté <b class="caret"></b>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="logout.php">Se déconnecter</a></li>
+                        </ul>
+                       </li>
+                <?php } }
+                else { ?>
+                <li>   
+        			<button id="con" class="btn btn-block btn-success"><span class="glyphicon glyphicon-user"></span> connexion</button>
       
      
   
-    <script>
+   				 	<script>
      
       
-      $("#con").click(function() { 
-        $("#infos").modal({ remote: "connexionQuest.php" } ,"show");
-      });
+     			 	$("#con").click(function() { 
+       			 	$("#infos").modal({ remote: "connexionQuest.php" } ,"show");
+      			 	});
       
-    </script></li> 
-</div> <?php } else {echo'connecté';}?>
+    				</script>
+    			</li> 
+                <?php } ?>
 				</ul>
 			</div><!--/.nav-collapse -->
 		</div>
