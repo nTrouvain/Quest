@@ -75,6 +75,7 @@
         <br/>
         <span id="expli">Partagez ce code avec les expérimentateurs que vous souhaitez inviter dans votre groupe de travail</span>
         <br/>
+        <br/>
         <span id="membre">Membres du groupe de travail :</span>
         <br/>
         <?php

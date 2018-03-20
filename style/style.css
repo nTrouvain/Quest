@@ -126,6 +126,8 @@
   
   color:white;
   opacity:0.95;
+   margin-left: 40px
+    margin-right: 40px
 
  
 }
@@ -151,7 +153,48 @@
   margin-left: 160px;
   margin-bottom: 10px;
 }
-#conteneurPageUSER1, #conteneurPageUSER2{
-    font:'caviar';
+#btncode {
+  padding: 3px 3px;
+  background: #F27E0A;
+  font-size: 20px;
+  
+  border: solid 0.5px #F27E0A ;
 }
+#btninscription, #btncreerexp{
+  padding: 3px 3px;
+  background: #5B9FCF;
+  font-size: 15px;
+  color:white;
+  border: 1px solid #5B9FCF;
+  
+ 
+}
+#conteneurPageUSER1, #conteneurPageUSER2{
+    font-family: 'caviar';
+}
+#code{
+    font-family: 'caviar';
+    color:#F27E0A;
+    font-size: 15px;
+}
+#inscriptionEXP, #inscriptionU, #creerexp{
+    font-family: 'caviar';
+    background: #181015 ;
+    opacity:0.9;
+    color:white;
+    
+}
+#inscription, #inscriptionUser, #bodycreerexp{
+    background:#181015 url( "../img/Web-Design.jpg") no-repeat;
+    margin-bottom: 0.1px;
+
+}
+#creation, #creationUSER, #titrecreerexp {
+    background: #5B9FCF;
+    font-family: 'caviar';
+    color:white;
+    opacity:0.9;
+
+}
+
 

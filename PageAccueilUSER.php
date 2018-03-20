@@ -10,6 +10,8 @@ require('connect_to_quest.php');
 <!doctype html>
 <html>
 <?php require_once'head.php';?>
+
+
 <body>
   
     <header id="headUSER">
@@ -57,14 +59,14 @@ $stmt->execute(array($idEXP));?>
  
             <form class="form-signin form-horizontal" role="form" action="RepondreQuestionnaire.php" method="post">
                <div class="form-group">
-                    <div class=" col-md-6 ">
+                    <div class=" col-md-6 " id="code">
                     <label for="code">Entrez le code questionnaire  : </label>
                     <input type="int" name="code_qutaire" id="code" class="form-control" placeholder="Entrez le code" required>
                     </div>
                     <br/>
                     
-                    <div class="col-md-6 ">
-                        <button type="submit" class="btn btn-default btn-primary"><span class="glyphicon glyphicon-circle-arrow-right"></span> start !</button>
+                    <div class="col-md-6 " >
+                        <button type="submit" class="btn btn-default btn-primary" id="btncode"><span class="glyphicon glyphicon-circle-arrow-right"></span> start !</button>
                     </div>
                 </div>
                  
@@ -74,12 +76,17 @@ $stmt->execute(array($idEXP));?>
     <div class="col-md-6">
         
  <h2  id="conteneurPageUSER2"> Liste des questionnaires auxquels vous avez déja participé  : </h2>
-  <?php foreach ($stmt as $experience) { ?>
+  <?php 
+  if(!empty($stmt))
+{
+    foreach ($stmt as $experience) { ?>
             <article>
                 <h5><a class="nom_experience" href="PageAcceuilExperience.php?id=<?= $experience['exr_id'] ?>"><?= $experience['exr_nom'] ?></a></h5>
                 
-            </article>
-        <?php } ?>
+            </article> <?php } }
+    else { echo "vous n'avez pas encore participé à un questionnaire";}
+          ?>
+    
     </div>
 </div>
   

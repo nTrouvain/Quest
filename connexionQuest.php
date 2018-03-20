@@ -22,6 +22,11 @@
 <body id="connexion">
  
   <br/>
+  <text> Vous n'avez pas encore de compte ?</text>
+  <br/>
+  <text> Si vous voulez lancer votre campagne de questionnaires </text> <br/><a href="CreationCompteExpe.php">Créez un compte EXPERIMENTATEUR</a>
+  <br/>
+  <text> Si vous voulez simplement répondre à un questionnaire </text> <br/><a href="CreationCompteExpe.php">Créez un compte USER</a>
   <br/>
  <h2 class="text-center">Connexion</h2>
     <div class="well" id="connexion">

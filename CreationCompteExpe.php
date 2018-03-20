@@ -1,20 +1,30 @@
+<?php 
+require('connect_to_quest.php');
+
+
+
+
+?>
 <!doctype html>
 <html>
-<head>
-	<title> Création compte</title>
-	<meta charset="utf-8"/>
-  <link rel="stylesheet"  href="bootstrap/css/bootstrap-theme.css">
-  <link rel="stylesheet"  href="bootstrap/css/bootstrap.css">
- 
-
-</head>
-<body>
+<?php require_once'head.php';?>
+<body id="inscription">
+    <?php require_once'headerQuest.php';?>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+ <div class="container" id="creation">
  <h2 class="text-center">Création d'un compte expérimentateur</h2>
-  <br/>
-  <br/>
+</div>
   <br/>
   
-  <div class="well">
+  
+  <div class="container" id="inscriptionEXP">
+            <br/>
+
+
             <form class="form-signin form-horizontal" role="form" action="TraiterCreationCompteEXP.php" method="post">
                 <div class="form-group">
                     <div class="col-sm-6 col-sm-offset-3 col-md-4 col-md-offset-4">
@@ -44,12 +54,18 @@
                
                 <div class="form-group">
                     <div class="col-sm-6 col-sm-offset-3 col-md-4 col-md-offset-4">
-                        <button type="submit" class="btn btn-default btn-primary"><span class="glyphicon glyphicon-plus"></span>Créer un compte 
+                        <button type="submit" class="btn btn-default btn-primary" id="btninscription"><span class="glyphicon glyphicon-plus"></span>  
+                            Créer un compte 
                         </button>
                     </div>
                 </div>
             </form>
         </div>
-
+        <br/>
+        
+        <HR size=5 width="80%"/>
+        <br/>
+        
+<?php require_once "footerQuest.php"; ?>
 </body>
 </html>

@@ -1,20 +1,29 @@
+<?php 
+require('connect_to_quest.php');
+
+
+
+
+?>
 <!doctype html>
 <html>
-<head>
-	<title> Création compte</title>
-	<meta charset="utf-8"/>
-    <link rel="stylesheet"  href="bootstrap/css/bootstrap-theme.css">
-    <link rel="stylesheet"  href="bootstrap/css/bootstrap.css">
- 
+<?php require_once'head.php';?>
+<body id="inscriptionUser">
+    <?php require_once'headerQuest.php';?>
 
-</head>
-<body>
+  <br/>
+
+  <br/>
+
+  <br/>
+
+  <br/>
+    <div class="container" id="creationUSER">
  <h2 class="text-center">Création d'un compte utilisateur</h2>
-  <br/>
-  <br/>
-  <br/>
-  
-  <div class="well">
+</div> 
+<br/>
+  <div class="container" id="inscriptionU">  
+    <br/>
             <form class="form-signin form-horizontal" role="form" action="TraiterCreationCompteUSER.php" method="post">
                 
                 
@@ -42,6 +51,14 @@
                 </div>
             </form>
         </div>
-
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+<HR size=5 width="80%"/>
+        <br/>
+        <br/>
+        
+<?php require_once "footerQuest.php"; ?>
 </body>
 </html>

@@ -40,5 +40,6 @@ if (!empty($_POST['description']) and !empty($_POST['dateDebut'])and !empty($_PO
 
 //On exécute la requête
 	$requete_deux->execute();
+	header("Location: PageAcceuilEXP.php");
 }
 ?>
