@@ -6,6 +6,7 @@ $loged=$_SESSION['connecte'];
 $_validation_user=$_SESSION['validationUSER'];
 $_validation_exp=$_SESSION['validationEXP'];
 
+
 ?>
 
 					<?php if ($loged) { 

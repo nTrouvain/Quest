@@ -1,60 +1,65 @@
-<?php session_start();
-require("connect_to_quest.php");
-$_SESSION['connecte']=false;
+<?php
 
-$_SESSION['validationEXP']=false;
-$_SESSION['validationUSER']=false;
-if (!empty($_POST['mail']) and !empty($_POST['mdp'])) {
-    
+session_start();
+require("connect_to_quest.php");
+
+$_SESSION['connecte'] = false;
+$_SESSION['validationEXP'] = false;
+$_SESSION['validationUSER'] = false;
+$_SESSION['idUSER'] = "";
+$_SESSION['idEXP'] = "";
+
+if (!empty($_POST['mail']) && !empty($_POST['mdp'])) {
+
     $mail = $_POST['mail'];
     $mdp = $_POST['mdp'];
-    $stmt =$BDD->prepare('select exp_id,exp_prenom from experiment where exp_mail=? and exp_mdp=?');
-    $stmt->execute(array($mail, $mdp));
-    if ($stmt->rowCount() == 1 ) 
-    {
-        while ($row = $stmt->fetch())
-         {
-            $idEXP=$row['exp_id'];
-            $nomEXP=$row['exp_prenom'];
-         }
-       
-        // Authentication successful
-                $validation_exp=true;
-                $_SESSION['validationEXP']=$validation_exp;
-                $_SESSION['idEXP']=$idEXP;
-                $_SESSION['nomEXP']=$nomEXP;
-                $_SESSION['connecte']=true;
-    }
-    
-       
-    $requete =$BDD->prepare('select usr_id from user where usr_mail=? and usr_mdp=?');
+
+    $requete = $BDD->prepare('SELECT exp_id, exp_prenom FROM experiment WHERE exp_mail=? AND exp_mdp=?');
     $requete->execute(array($mail, $mdp));
-     if ($requete->rowCount() == 1 ) 
-    {
-        while ($row = $requete->fetch())
-         {
-            $idUSER=$row['usr_id'];
-         }
-       
+
+    if ($requete->rowCount() == 1) {
+        while ($row = $requete->fetch()) {
+            $idEXP = $row['exp_id'];
+            $nomEXP = $row['exp_prenom'];
+        }
+
         // Authentication successful
-                $validation_user=true;
-                $_SESSION['validationUSER']=$validation_user;
-                $_SESSION['idUSER']=$idUSER;
-                $_SESSION['connecte']=true;
+        $_validation_exp = true;
+        $_SESSION['validationEXP'] = $_validation_exp;
+        $_SESSION['idEXP'] = $idEXP;
+        $_SESSION['nomEXP'] = $nomEXP;
+        $_SESSION['connecte'] = true;
 
-        
+    } else {
+        $requete = $BDD->prepare('SELECT usr_id FROM user WHERE usr_mail=? AND usr_mdp=?');
+        $requete->execute(array($mail, $mdp));
+
+        if ($requete->rowCount() == 1) {
+            while ($row = $requete->fetch()) {
+                $idUSER = $row['usr_id'];
+            }
+
+            // Authentication successful
+            $_validation_user = true;
+            $_SESSION['validationUSER'] = $_validation_user;
+            $_SESSION['idUSER'] = $idUSER;
+            $_SESSION['connecte'] = true;
+        }
 
     }
-    
-if ($validation_exp)
-    {
+
+    // $erreur permet d'annoncer à la page appelée, via la méthode GET, si une erreur d'authentification est
+    // survenue. Un message d'erreur s'affiche alors (voir connexionQuest.php).
+
+    if ($_validation_exp) {
+        $erreur = false;
         header("Location: PageAcceuilEXP.php");
-    }
-else if ($validation_user)
-    {
+    } else if ($_validation_user) {
+        $erreur = false;
         header("Location: PageAccueilUSER.php");
+    } else {
+        $erreur = true;
+        header("Location: connexionQuest.php?erreur=" . $erreur);
     }
-else {header("Location: connexionQuest.php");}
-    
 }
 ?>

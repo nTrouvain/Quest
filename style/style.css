@@ -13,187 +13,211 @@
 }
 
 #head {
-    background:#181015 url( "../img/Web-Design.jpg") no-repeat;
-    background-size: cover; min-height:300px;
+    background: #181015 url("../img/Web-Design.jpg") no-repeat;
+    background-size: cover;
+    min-height: 300px;
     text-align: left;
-    padding-top:240px; color:white;
-    font-family:"Open sans", Helvetica, Arial;
-    font-weight:300;
-}
-#headexp,#headUSER {
-    background:#181015 url( "../img/Web-Design.jpg") no-repeat;
-    background-size: cover; min-height:300px;
-    text-align: left;
-    padding-top:100px; color:white;
-    font-family:'caviar';
-    font-weight:300;
+    padding-top: 240px;
+    color: white;
+    font-family: "Open sans", Helvetica, Arial;
+    font-weight: 300;
 }
 
-#head .lead, #headexp .lead, #headUSER .lead{
-    font-family:'caviar';
-    font-size:44px;
-    margin-bottom:60px;
-    color:white;
-    line-height:1.15em;
-    background:#181015;
+#headexp, #headUSER {
+    background: #181015 url("../img/Web-Design.jpg") no-repeat;
+    background-size: cover;
+    min-height: 300px;
+    text-align: left;
+    padding-top: 100px;
+    color: white;
+    font-family: 'caviar';
+    font-weight: 300;
+}
+
+#head .lead, #headexp .lead, #headUSER .lead {
+    font-family: 'caviar';
+    font-size: 44px;
+    margin-bottom: 60px;
+    color: white;
+    line-height: 1.15em;
+    background: #181015;
     opacity: 0.7;
 }
 
 .col-md-8 {
-    background:white;
-    font-family:'caviar';
-   
+    background: white;
+    font-family: 'caviar';
+
 }
 
 .container-fluid {
-    background:white;
-    font-family:'caviar';
-    min-height:100px;
+    background: white;
+    font-family: 'caviar';
+    min-height: 100px;
     border: 2px #181015;
 }
 
-
-
 #listexp {
     color: black;
-    background: rgba(242,126,10,0.1);
+    background: rgba(242, 126, 10, 0.1);
 }
 
 #pied {
     background: white;
-    background-size : cover;
-    font-family:'caviar';
-    min-height:50px;
+    background-size: cover;
+    font-family: 'caviar';
+    min-height: 50px;
 }
-#con{
+
+#con {
     padding: 14px 16px;
 }
-#description{
-    font-family:'caviar';
+
+#description {
+    font-family: 'caviar';
     background: #F27E0A;
-   
-    margin-bottom:60px;
-    color:white;
-    line-height:1.15em;
-    
+
+    margin-bottom: 60px;
+    color: white;
+    line-height: 1.15em;
+
     opacity: 0.95;
 
 }
-#gptravail{
-    border:2px solid #F27E0A;
-   
-}
-#expli{
-    color:#F27E0A;
-    font-size:15px;
-}
-#code,#membre{
-     font-size:24px;
-}
-#liste{
-    background: rgba(242,126,10,0.1);
+
+#gptravail {
+    border: 2px solid #F27E0A;
 
 }
-#case1 { 
-    background:#181015  ;
-    background-size: cover;
-    min-height:300px;
-    text-align: left;
-    padding-top:100px;
-    color:white; font-family:"caviar";
-    font-weight:300;opacity:0.85; 
-}
 
-#index{ 
-    background:#181015 url( "../img/Web-Design.jpg") no-repeat;
-    background-size: cover;
-}
-#btn,#btn1,#btn2{
-  padding: 20px 20px;
-  background: #F27E0A;
-  font-size: 20px;
-  margin-left: 40px;
-}
-#Bienvenue, #lesite{
-  margin-left: 40px;
-  margin-top: 0px;
-}
-#casedroite,#casegauche{
- 
-  background: #EF9943;
-  
-  font-family:"caviar"; 
-  
-  color:white;
-  opacity:0.95;
-   margin-left: 40px
-    margin-right: 40px
-
- 
-}
-#casemilieu{
-
-}
-#expérimentateur{
-  text-align: left;
-}
-#btn1{
-  padding: 20px 20px;
-  background: #F27E0A;
-  font-size: 20px;
-  margin-left: 125px;
- 
-  margin-bottom: 10px;
-  color:white;
-}
-#btn2{
-  padding: 20px 20px;
-  background: #F27E0A;
-  font-size: 20px;
-  margin-left: 160px;
-  margin-bottom: 10px;
-}
-#btncode {
-  padding: 3px 3px;
-  background: #F27E0A;
-  font-size: 20px;
-  
-  border: solid 0.5px #F27E0A ;
-}
-#btninscription, #btncreerexp{
-  padding: 3px 3px;
-  background: #5B9FCF;
-  font-size: 15px;
-  color:white;
-  border: 1px solid #5B9FCF;
-  
- 
-}
-#conteneurPageUSER1, #conteneurPageUSER2{
-    font-family: 'caviar';
-}
-#code{
-    font-family: 'caviar';
-    color:#F27E0A;
+#expli {
+    color: #F27E0A;
     font-size: 15px;
 }
-#inscriptionEXP, #inscriptionU, #creerexp{
-    font-family: 'caviar';
-    background: #181015 ;
-    opacity:0.9;
-    color:white;
-    
+
+#code, #membre {
+    font-size: 24px;
 }
-#inscription, #inscriptionUser, #bodycreerexp{
-    background:#181015 url( "../img/Web-Design.jpg") no-repeat;
+
+#liste {
+    background: rgba(242, 126, 10, 0.1);
+
+}
+
+#case1 {
+    background: #181015;
+    background-size: cover;
+    min-height: 300px;
+    text-align: left;
+    padding-top: 100px;
+    color: white;
+    font-family: "caviar";
+    font-weight: 300;
+    opacity: 0.85;
+}
+
+#index {
+    background: #181015 url("../img/Web-Design.jpg") no-repeat;
+    background-size: cover;
+}
+
+#btn, #btn1, #btn2 {
+    padding: 20px 20px;
+    background: #F27E0A;
+    font-size: 20px;
+    margin-left: 40px;
+}
+
+#Bienvenue, #lesite {
+    margin-left: 40px;
+    margin-top: 0px;
+}
+
+#casedroite, #casegauche {
+
+    background: #EF9943;
+
+    font-family: "caviar";
+
+    color: white;
+    opacity: 0.95;
+    margin-left: 40px
+    margin-right: 40px
+
+}
+
+#casemilieu {
+
+}
+
+#expérimentateur {
+    text-align: left;
+}
+
+#btn1 {
+    padding: 20px 20px;
+    background: #F27E0A;
+    font-size: 20px;
+    margin-left: 125px;
+
+    margin-bottom: 10px;
+    color: white;
+}
+
+#btn2 {
+    padding: 20px 20px;
+    background: #F27E0A;
+    font-size: 20px;
+    margin-left: 160px;
+    margin-bottom: 10px;
+}
+
+#btncode {
+    padding: 3px 3px;
+    background: #F27E0A;
+    font-size: 20px;
+
+    border: solid 0.5px #F27E0A;
+}
+
+#btninscription, #btncreerexp {
+    padding: 3px 3px;
+    background: #5B9FCF;
+    font-size: 15px;
+    color: white;
+    border: 1px solid #5B9FCF;
+
+}
+
+#conteneurPageUSER1, #conteneurPageUSER2 {
+    font-family: 'caviar';
+}
+
+#code {
+    font-family: 'caviar';
+    color: #F27E0A;
+    font-size: 15px;
+}
+
+#inscriptionEXP, #inscriptionU, #creerexp, #conteneurajoutcampagne, #conteneraccueilcamp {
+    font-family: 'caviar';
+    background: #181015;
+    opacity: 0.9;
+    color: white;
+
+}
+
+#inscription, #inscriptionUser, #bodycreerexp, #bodycreationcampagne, #bodyaccueilcampagne {
+    background: #181015 url("../img/Web-Design.jpg") no-repeat;
     margin-bottom: 0.1px;
 
 }
-#creation, #creationUSER, #titrecreerexp {
+
+#creation, #creationUSER, #titrecreerexp, #titreajoutcampagne, #titreaccueilcamp {
     background: #5B9FCF;
     font-family: 'caviar';
-    color:white;
-    opacity:0.9;
+    color: white;
+    opacity: 0.9;
 
 }
 

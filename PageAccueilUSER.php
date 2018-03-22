@@ -1,4 +1,4 @@
-<?php 
+<?php ;
 require('connect_to_quest.php');
 
 
@@ -9,7 +9,10 @@ require('connect_to_quest.php');
 
 <!doctype html>
 <html>
-<?php require_once'head.php';?>
+
+<?php require_once'head.php';
+
+?>
 
 
 <body>
@@ -27,7 +30,7 @@ require('connect_to_quest.php');
                           
             </div>
             <div class="col-md-4" id="description">
-                <h1 >Page d'acceuil USER</h1>
+                <h1 >Page d'acceuil USER </h1>
         
 
             </div>
@@ -50,7 +53,9 @@ require('connect_to_quest.php');
 <?php require_once'headerQuest.php';
 $idEXP=$_SESSION['idUSER'];
 $stmt = $BDD->prepare('select * from experience,lancer where lancer.exp=? and lancer.exr=experience.exr_id');
-$stmt->execute(array($idEXP));?>
+$stmt->execute(array($idEXP));
+
+?>
 
  <div class="container">
     <div class="row" >

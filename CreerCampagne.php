@@ -12,13 +12,18 @@ $idExperience = $_GET['id'];
 <html>
 <?php require_once "head.php"; 
 ?>
-<body>
+<body id="bodycreationcampagne">
   <?php require_once "headerQuest.php"; ?>
+  <br/>
+  <br/>
+  <div class="container" id="titreajoutcampagne">
  <h2 class="text-center">Ajout d'une nouvelle campagne</h2>
+</div>
   <br/>
   <br/>
  
-  <div class="well">
+  <div class="container" id="conteneurajoutcampagne">
+  	<br/>
             <form class="form-signin form-horizontal" role="form" action="TraiterCreerCampagne.php?id=<?=$idExperience?>" method="post">
                <div class="form-group">
                     <div class="col-sm-6 col-sm-offset-3 col-md-4 col-md-offset-4">
@@ -28,8 +33,8 @@ $idExperience = $_GET['id'];
                   </div>
                 <div class="form-group">
                     <div class="col-sm-6 col-sm-offset-3 col-md-4 col-md-offset-4">
-                    <label for="description">Entrer la description de la campagne : </label>
-                    <textarea name="description" id ="description" cols="70" rows="10"> </textarea>
+                    <label for="descriptionc">Entrer la description de la campagne : </label>
+                    <textarea name="description" id ="descriptionc" cols="70" rows="10"> </textarea>
                     </div>
                 </div>
                
@@ -52,6 +57,6 @@ $idExperience = $_GET['id'];
                 </div>
             </form>
         </div>
-
+  <?php require_once "footerQuest.php"; ?>
 </body>
 </html>
