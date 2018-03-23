@@ -14,51 +14,16 @@
 
     $req=$BDD->prepare('select exp from lancer where exr=?');
     $req->execute(array($idExperience));
-   
-     
 
 ?>
+
 <html>
 <?php require_once "head.php"; ?>
 <body >
+
     <?php require_once "headerQuest.php"; ?>
-<header id="headexp">
-    <div class="container">
-        <
-
-        <div class="row">
-            <div class="container">
-      <div class="row" >
-            <div class="col-md-4" >
-            
-                          
-            </div>
-            <div class="col-md-4" id="description">
-                <h1 ><?= $experience['exr_nom'] ?></h1>
-        
-
-            </div>
-            <div class="col-md-4" >
-              
-            </div>
-
-     
-          </div>
-       
-            
-          </div>
-            <h1 class="lead">Gestion d'expérience </h1>
-
-
-        </div>
-    </div>
-</header>
-
-
 
 <div class="container-fluid">
-   
-
 
     <article class="col-md-8 maincontent" >
         <div class="container">
